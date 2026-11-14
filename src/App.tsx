@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import AITutor from './components/AITutor';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://edurural-ai.onrender.com/api/auth';
 
 type AuthUser = {
   name: string;
